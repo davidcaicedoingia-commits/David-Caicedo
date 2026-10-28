@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: mortalidad-colombia-2019
-    runtime: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:server --workers 1 --threads 4 --timeout 180
-    healthCheckPath: /healthz
-    plan: free
