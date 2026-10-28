@@ -86,13 +86,5 @@ Incluye las siete visualizaciones requeridas por la guía. Los hallazgos prelimi
 ## Software
 Python, Dash, Plotly, pandas, openpyxl, Gunicorn, Git, GitHub y Render.
 
-## Revisión antes de entregar
-- Ejecutar `python validar_datos.py` y revisar el resultado.
-- Probar filtros, limpieza de filtros, tabla y siete visualizaciones.
-- Abrir `/healthz` y `/api/summary` después del despliegue.
-- Tomar capturas reales de la aplicación publicada y pegarlas en el informe.
-- Confirmar que el repositorio de GitHub sea público o esté conectado a Render con los permisos correctos.
-- No publicar los datos si la guía académica o la licencia de los archivos establece restricciones.
-
 ## Integrantes
-David Caicedo Grajales. Completar con los demás integrantes si corresponde.
+David Caicedo Grajales.
